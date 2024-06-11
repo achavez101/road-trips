@@ -36,5 +36,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-// 31:18 minutes on video
