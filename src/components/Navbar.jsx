@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { TfiMenu } from 'react-icons/tfi';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -24,9 +25,9 @@ const Navbar = () => {
                 } 
         >
             <ul className='flex flex-col fixed w-full h-full items-center justify-center'>
-                <li className='font-bold text-3xl p-8'>Home</li>
-                <li className='font-bold text-3xl p-8'>Destinations</li>
-                <li className='font-bold text-3xl p-8'>Story</li>
+                <li className='font-bold text-3xl p-8'><Link to="/">Home</Link></li>
+                <li className='font-bold text-3xl p-8'><Link to="/destinations">Destinations</Link></li>
+                <li className='font-bold text-3xl p-8'><Link to="/story">Story</Link></li>
                 <li className='font-bold text-3xl p-8'>Pictures</li>
                 <li className='font-bold text-3xl p-8'>Contact</li>
             </ul>

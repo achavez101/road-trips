@@ -3,7 +3,7 @@ import Hero from './components/Hero.jsx';
 import Trips from './components/Trips.jsx';
 import Plan from './components/Plan.jsx';
 import Experiences from './components/Experiences.jsx';
-import ImageSlider from './components/ImageSlider.jsx';
+import Slider from './components/Slider.jsx';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Trips />
       <Plan />
       <Experiences />
-      <ImageSlider />
+      <Slider />
     </div>
   );
 }
