@@ -4,7 +4,12 @@ import { TfiMenu } from 'react-icons/tfi';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
-    setNav(!nav); 
+    setNav(!nav);
+    if(!nav) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'scroll';
+    }
   }
 
   return (
