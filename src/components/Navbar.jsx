@@ -28,8 +28,8 @@ const Navbar = () => {
                 <li className='font-bold text-3xl p-8'><Link to="/">Home</Link></li>
                 <li className='font-bold text-3xl p-8'><Link to="/destinations">Destinations</Link></li>
                 <li className='font-bold text-3xl p-8'><Link to="/story">Story</Link></li>
-                <li className='font-bold text-3xl p-8'>Pictures</li>
-                <li className='font-bold text-3xl p-8'>Contact</li>
+            <li className='font-bold text-3xl p-8'><Link to="/pictures">Pictures</Link></li>
+            <li className='font-bold text-3xl p-8'><Link to="/contact">Contact</Link></li>
             </ul>
         </div>
     </div>
