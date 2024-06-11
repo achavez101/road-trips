@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import {Link} from 'react-router-dom';
 
+//Story 
+
 const BlogPage = () => {
   return (
     <div>

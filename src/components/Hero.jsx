@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from '../images/hero.JPG';
+import {Link} from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
               There are not only adventures for kids but for adults as well. 
               From Old Town Sacramento to the Capital to the Museum to the Train, it is all amazing
             </p>
-            <button className='bg-white text-black'>Trending</button>
+            <button className='bg-white text-black'><Link to="/destinations">Trending</Link></button>
         </div>
       </div>
     </div>

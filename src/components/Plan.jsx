@@ -3,6 +3,7 @@ import trip1 from '../images/trip1.JPG';
 import trip2 from '../images/trip2.JPG';
 import trip3 from '../images/trip3.JPG';
 import trip4 from '../images/trip4.JPG';
+import {Link} from 'react-router-dom';
 
 
 const Plan = () => {
@@ -21,7 +22,7 @@ const Plan = () => {
             <p className='text-2xl py-6'>We were able to make our last trip to San Diego and it was a success</p>
             <p className='pb-6'>Look for more information</p>
         <div>
-            <button className='border-black mr-4 hover:shadow-xl'>Learn More</button>
+            <button className='border-black mr-4 hover:shadow-xl'><Link to="/story">Learn More</Link></button>
         </div>
         </div>
     </div>

@@ -3,6 +3,8 @@ import Slider from '../components/Slider';
 import Navbar from '../components/Navbar';
 import {Link} from 'react-router-dom';
 
+// Destinations
+
 const DestinationPage = () => {
   return (
     <div>
