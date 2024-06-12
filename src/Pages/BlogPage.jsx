@@ -5,6 +5,24 @@ import {Link} from 'react-router-dom';
 //Story 
 
 const BlogPage = () => {
+  (() => {
+    if (window.localStorage) {
+
+        // If there is no item as 'reload'
+        // in localstorage then create one &
+        // reload the page
+        if (!localStorage.getItem('reload')) {
+            localStorage['reload'] = true;
+            window.location.reload();
+        } else {
+
+            // If there exists a 'reload' item
+            // then clear the 'reload' item in
+            // local storage
+            localStorage.removeItem('reload');
+        }
+    }
+    })();
   return (
     <div>
         <ul className= 'border-gray-200 bg-sky-500 '>
