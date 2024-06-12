@@ -29,7 +29,7 @@ const Hero = () => {
                 history, natural beauty, and vibrant culture, promising an enriching and unforgettable 
                 journey through the Golden State.
             </p>
-            <button className='bg-white text-black mt-3'><Link to="/destinations">Trending</Link></button>
+            <button className='bg-white text-black mt-3'><Link to="/pictures">Trending</Link></button>
         </div>
       </div>
     </div>
