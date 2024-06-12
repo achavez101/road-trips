@@ -2,7 +2,6 @@ import React from 'react'
 import Hero from '../images/hero.JPG'
 import aguilarFamily from '../images/aguilarFamily.jpg'
 import coronado from '../images/coronado.JPG'
-import coronadoo from '../images/coronadoo.JPG'
 import imperial from '../images/imperialBeach.JPG'
 import laJolla from '../images/laJolla.JPG'
 import laJolla2 from '../images/laJolla2.JPG'
@@ -30,7 +29,7 @@ const Pictures = () => {
         {/* seaport image */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image Seaport */}
-        <img src={coronado} alt='' className='w-full'/>
+        <img src={coronado} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 SeaPort Village
@@ -46,7 +45,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={laJolla} alt='' className='w-full'/>
+        <img src={laJolla} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 La Jolla
@@ -63,7 +62,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={cove} alt='' className='w-full'/>
+        <img src={cove} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 La Jolla Cove
@@ -80,7 +79,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={littleItaly} alt='' className='w-full'/>
+        <img src={littleItaly} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 Little Italy
@@ -97,7 +96,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={seaport2} alt='' className='w-full'/>
+        <img src={seaport2} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 SeaPort Village
@@ -114,7 +113,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={sdPier} alt='' className='w-full'/>
+        <img src={sdPier} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 San Diego Pier
@@ -131,7 +130,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={oldTown} alt='' className='w-full'/>
+        <img src={oldTown} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 Old Town San Diego
@@ -149,7 +148,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={Hero} alt='' className='w-full'/>
+        <img src={Hero} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 SeaPort Village
@@ -167,7 +166,7 @@ const Pictures = () => {
          {/* next start */}
          <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={townBeca} alt='' className='w-full mt-8'/>
+        <img src={townBeca} alt='' loading='eager' className='w-full mt-8'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 Old Town San Diego
@@ -184,7 +183,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={townRose} alt='' className='w-full'/>
+        <img src={townRose} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 Old Town San Diego
@@ -201,7 +200,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={aguilarFamily} alt='' className='w-full mt-14'/>
+        <img src={aguilarFamily} alt='' loading='eager' className='w-full mt-14'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 San Diego Pizza
@@ -218,7 +217,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={laJolla2} alt='' className='w-full'/>
+        <img src={laJolla2} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 La Jolla Cave
@@ -235,7 +234,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={seaportFriends} alt='' className='w-full'/>
+        <img src={seaportFriends} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 SeaPort Village
@@ -252,7 +251,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={littleItaly2} alt='' className='w-full'/>
+        <img src={littleItaly2} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 Little Italy
@@ -269,7 +268,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={imperial} alt='' className='w-full'/>
+        <img src={imperial} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 Imperial Beach
@@ -286,7 +285,7 @@ const Pictures = () => {
         {/* next start */}
         <div className='max-w-xs rounded overflow-hidden shadow-lg p-2'>
         {/* image next */}
-        <img src={seaportMore} alt='' className='w-full'/>
+        <img src={seaportMore} alt='' loading='eager' className='w-full'/>
         <div className='px-6 py-4'>
             <div className='font-bold text-purple-500 text-xl mb-2'>
                 SeaPort Village
