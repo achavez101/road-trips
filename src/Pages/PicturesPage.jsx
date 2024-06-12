@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Pictures from '../components/Pictures';
 
 // Pictures
 
-const Pictures = () => {
+const PicturesPage = () => {
   return (
     <div>
         <ul className= 'border-gray-200 bg-sky-500 '>
@@ -15,8 +16,9 @@ const Pictures = () => {
             <li className='font-bold text-md md:text-lg p-5'><Link to="/contact">Contact</Link></li>
             </div>
         </ul>
+        <Pictures></Pictures>
     </div>
   )
 }
 
-export default Pictures
+export default PicturesPage;

@@ -19,10 +19,6 @@ const DestinationPage = () => {
         </ul>
         <Navbar></Navbar>
         <Slider></Slider>
-
-        
-
-        
     </div>
   )
 }
