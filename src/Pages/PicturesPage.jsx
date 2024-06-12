@@ -7,7 +7,7 @@ import Pictures from '../components/Pictures';
 const PicturesPage = () => {
   return (
     <div>
-        <ul className= 'border-gray-200 bg-sky-500 '>
+        <ul className= 'border-gray-200 bg-sky-500 overflow-scroll'>
             <div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1'>
             <li className='font-bold text-md md:text-lg p-5'><Link to="/">Home</Link></li>
             <li className='font-bold text-md md:text-lg p-5'><Link to="/destinations">Destinations</Link></li>
