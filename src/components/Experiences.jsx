@@ -4,14 +4,10 @@ import oldTown from '../images/old-town-sac.jpeg';
 import sdSeaport from '../images/sd-seaport-village.jpeg';
 import elkGrove from '../images/elk-grove.jpeg';
 
+// Experiences portion in Home
+
 const Experiences = () => {
   return (
-    // look through experiences
-    // 'max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4' 
-
-// old
-//'max-w-[1400px] h-full bg-blue-200 mx-auto my-20 pt-16 lg:mb-[20%] md:mb[35%] px-4 grid lg:grid-cols-3 gap-4 pb-2'
-
     <div className='max-w-[1400px] bg-blue-200 m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
         <div className='lg:top-20 relative lg:col-span-1 col-span-2'>
             <h3 className='text-2xl font-bold'>Experiences</h3>
@@ -27,11 +23,8 @@ const Experiences = () => {
                 journey through these captivating California destinations and let the adventure unfold.
             </p>
         </div>
-        {/* grid grid-cols-2 grid-rows-6 h-[80vh] */}
-        {/* grid grid-cols-2 col-span-2 gap-2 */}
         <div className='grid grid-cols-1 grid-rows-6 lg:grid-cols-2 h-full '>
-            {/* row-span-3 object-cover w-full h-full p-2 */}
-            {/* object-cover w-full h-full */}
+            {/* images for experiences of 3 of us */}
             <img className='row-span-3 object-cover w-full h-full p-2' src={sdCafe} alt='San Diego Espresso Café'/>
             <img className='row-span-3 object-cover w-full h-full p-2' src={oldTown} alt='Old Town Sacramento'/>
             <img className='row-span-3 object-cover w-full h-full p-2' src={sdSeaport} alt='Seaport Village'/>
