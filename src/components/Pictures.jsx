@@ -16,12 +16,110 @@ import seaport2 from '../images/seaport2.JPG'
 import seaportFriends from '../images/seaportFriends.jpg'
 import seaportMore from '../images/seaportMore.JPG'
 import sdSeaport from '../images/sd-seaport-village.jpeg'
+import imperial1 from '../images/imperial-1.jpg'
+import imperial2 from '../images/imperial-2.jpg'
+import imperial3 from '../images/imperial-3.jpg'
+import imperial4 from '../images/imperial-4.jpg'
+import imperial5 from '../images/imperial-5.jpg'
+import imperial6 from '../images/imperial-6.jpg'
+import imperial7 from '../images/imperial-7.jpeg'
+import sdBeach from '../images/sd-beach.jpeg'
+import sdDrive from '../images/sd-drive.jpeg'
+import sdEngage from '../images/sd-engage.jpg'
 
 const Pictures = () => {
 
     const imagesList = [
         {
             id: 1,
+            src: imperial1,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 2,
+            src: imperial2,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 3,
+            src: imperial3,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 4,
+            src: imperial4,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 5,
+            src: imperial5,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 6,
+            src: imperial6,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 7,
+            src: imperial7,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 8,
+            src: imperial1,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 9,
+            src: sdBeach,
+            alt: "Image 1",
+            name: "Imperial Beach",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 10,
+            src: sdDrive,
+            alt: "Image 1",
+            name: "Road Trip",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 11,
+            src: sdEngage,
+            alt: "Image 1",
+            name: "Engage Youth Conference",
+            description: "Beautiful place to enjoy the view",
+            date: "August 2020",
+        },
+        {
+            id: 12,
             src: imperial,
             alt: "Image 1",
             name: "SeaPort Village",
@@ -29,7 +127,7 @@ const Pictures = () => {
             date: "June 2022",
         },
         {
-            id: 2,
+            id: 13,
             src: littleItaly,
             alt: "Image 2",
             name: "Little Italy",
@@ -37,7 +135,7 @@ const Pictures = () => {
             date: "June 2022",
         },
         {
-            id: 3,
+            id: 14,
             src: littleItaly2,
             alt: "Image 3",
             name: "Little Italy",
@@ -45,7 +143,7 @@ const Pictures = () => {
             date: "June 2022",
         },
         {
-            id: 4,
+            id: 15,
             src: aguilarFamily,
             alt: "Image 4",
             name: "San Diego Pizza",
@@ -53,7 +151,7 @@ const Pictures = () => {
             date: "June 2022",
         },
         {
-            id: 5,
+            id: 16,
             src: seaport2,
             alt: "Image 5",
             name: "SeaPort Village",
@@ -61,7 +159,7 @@ const Pictures = () => {
             date: "June 2022",
         },
         {
-            id: 6,
+            id: 17,
             src: centennialPark,
             alt: "Image 6",
             name: "Centennial Park",
@@ -69,7 +167,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 7,
+            id: 18,
             src: seaportMore,
             alt: "Image 7",
             name: "SeaPort Village",
@@ -77,7 +175,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 8,
+            id: 19,
             src: sdPier,
             alt: "Image 8",
             name: "San Diego Pier",
@@ -85,7 +183,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 9,
+            id: 20,
             src: sdSeaport,
             alt: "Image 9",
             name: "SeaPort Village",
@@ -93,7 +191,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 10,
+            id: 21,
             src: seaportFriends,
             alt: "Image 10",
             name: "SeaPort Village",
@@ -101,7 +199,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 11,
+            id: 22,
             src: Hero,
             alt: "Image 11",
             name: "Old Town San Diego",
@@ -109,7 +207,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 12,
+            id: 23,
             src: cove,
             alt: "Image 12",
             name: "La Jolla Cove",
@@ -117,7 +215,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 13,
+            id: 24,
             src: laJolla,
             alt: "Image 13",
             name: "La Jolla Cove",
@@ -125,7 +223,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id:14,
+            id: 25,
             src: laJolla2,
             alt: "Image 14",
             name: "La Jolla Cove",
@@ -133,7 +231,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 15,
+            id: 26,
             src: cove,
             alt: "Image 15",
             name: "La Jolla Cove",
@@ -141,7 +239,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 16,
+            id: 27,
             src: oldTown,
             alt: "Image 16",
             name: "Old Town San Diego",
@@ -149,7 +247,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 17,
+            id: 28,
             src: townBeca,
             alt: "Image 17",
             name: "Old Town San Diego",
@@ -157,7 +255,7 @@ const Pictures = () => {
             date: "May 2024",
         },
         {
-            id: 18,
+            id: 29,
             src: townRose,
             alt: "Image 18",
             name: "Old Town San Diego",
