@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Hero from '../images/hero.JPG'
+import Hero from '../images/hero0.jpeg'
 import aguilarFamily from '../images/aguilarFamily.jpg'
 import centennialPark from '../images/centennialPark.jpeg'
 import imperial from '../images/imperialBeach.jpeg'

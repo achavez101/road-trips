@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../images/hero.JPG';
+import heroImage from '../images/hero.jpeg';
 import {Link} from 'react-router-dom';
 
 // Places to Visit Headline
