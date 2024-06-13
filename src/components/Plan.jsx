@@ -1,8 +1,8 @@
 import React from 'react';
-import trip1 from '../images/trip1.JPG';
-import trip2 from '../images/trip2.JPG';
-import trip3 from '../images/trip3.JPG';
-import trip4 from '../images/trip4.JPG';
+import trip1 from '../images/trip1.jpeg';
+import trip2 from '../images/trip2.jpeg';
+import trip3 from '../images/trip3.jpeg';
+import trip4 from '../images/trip4.jpeg';
 import {Link} from 'react-router-dom';
 
 // Scenery
