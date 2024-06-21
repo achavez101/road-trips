@@ -267,7 +267,7 @@ const Pictures = () => {
     return (
         <div>
             {/* San Diego Pictures Section */}
-            <h3 className='text-2xl font-bold p-2'>San Diego</h3>
+            <h3 className='text-2xl font-bold pl-4 pt-12'>San Diego</h3>
 
             <div className='flex flex-wrap justify-center'>
 

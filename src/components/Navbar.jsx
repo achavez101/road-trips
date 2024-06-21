@@ -14,9 +14,9 @@ const Navbar = () => {
   }
 
   return (
-    <div className='absolute w-full flex justify-between p-4 items-center'>
+    <div className='absolute w-full flex justify-between p-4 items-center '>
         <h1 className='text-white font-bold text-2xl z-20'><Link to="/destinations">Experiences</Link></h1>
-        <TfiMenu onClick={handleNav} className='z-20 text-white cursor-pointer' size={25} />
+        <TfiMenu onClick={handleNav} className='z-20 text-white cursor-pointer mt-3' size={25} />
         <div 
             className={
                 nav 

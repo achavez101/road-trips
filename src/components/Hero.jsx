@@ -5,6 +5,26 @@ import {Link} from 'react-router-dom';
 // Places to Visit Headline
 
 const Hero = () => {
+  (() => {
+    if (window.localStorage) {
+
+        // If there is no item as 'reload'
+        // in localstorage then create one &
+        // reload the page
+        if (!localStorage.getItem('reload')) {
+            localStorage['reload'] = true;
+            window.location.reload();
+        } else {
+
+            // If there exists a 'reload' item
+            // then clear the 'reload' item in
+            // local storage
+            localStorage.removeItem('reload');
+        }
+    }
+    })();
+
+
   return (
     <div className='w-full h-screen'> 
       <img className='top-0 left-0 w-full h-screen object-cover' src={heroImage} />
@@ -12,9 +32,9 @@ const Hero = () => {
       <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
         <div className='md: left-[10%] max-w-[1100px] m-auto absolute p-4' >
           {/* <p>All Inclusive</p> */}
-          <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl'>Places to Visit</h1>
+          <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl mt-20'>Places to Visit</h1>
             {/* <p className='max-w-[600px] drop-shadow-2xl py-2 text-xl'>Sacramento</p> */}
-            <p>
+            <p className=''>
                 Embark on an unforgettable journey through California's diverse landscapes, from the 
                 vibrant urban hub of Sacramento to the tranquil shores of Monterey Bay, the quaint 
                 charm of Morro Bay, and the sunny shores of San Diego. Begin your adventure in 
