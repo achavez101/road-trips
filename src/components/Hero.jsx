@@ -1,6 +1,7 @@
 import React from 'react';
 import heroImage from '../images/hero.jpeg';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 // Places to Visit Headline
 
@@ -49,7 +50,7 @@ const Hero = () => {
                 history, natural beauty, and vibrant culture, promising an enriching and unforgettable 
                 journey through the Golden State.
             </p>
-            <button className='bg-white text-black mt-3'><Link to="/pictures">Trending</Link></button>
+            <button className='bg-white text-black mt-3'><Link to="/destinations/highlights">Trending</Link></button>
         </div>
       </div>
     </div>

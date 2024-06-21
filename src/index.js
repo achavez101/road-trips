@@ -14,6 +14,7 @@ import BlogPage from './Pages/BlogPage';
 import DestinationPage from './Pages/DestinationPage';
 import PicturesPage from './Pages/PicturesPage';
 import ContactPage from './Pages/ContactPage';
+import Highlights from './components/Highlights';
 
 const router = createBrowserRouter ([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter ([
   {
     path: "destinations",
     element: <DestinationPage />,
+  },
+  {
+    path: "destinations/highlights",
+    element: <Highlights />
   },
   {
     path: "pictures",

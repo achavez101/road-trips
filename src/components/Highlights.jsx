@@ -30,7 +30,7 @@ const Highlights = () => {
         },
         {
             url: lakeIsabella,
-            title: 'Old Town Sacramento',
+            title: 'Lake Isabella',
         },
     ];
 
@@ -51,7 +51,7 @@ const Highlights = () => {
 
 
   return (
-    <div className='max-w-[1400px] h-[580px] m-auto py-16 px-4 relative group'>
+    <div className='max-w-[1400px] h-[880px] m-auto py-16 px-4 relative group bg-gradient-to-r from-cyan-500 to-blue-500 pb-40'>
         <h3 className='text-5xl md:text-6xl font-bold top-10 py-4 mt-5'>Highlights</h3>
         <div className='w-full h-full rounded-2xl bg-contain bg-no-repeat bg-center'
         style={{ backgroundImage: `url(${slides[currentIndex].url})` } }>
@@ -64,7 +64,7 @@ const Highlights = () => {
         <div className='absolute top-[50%] -translate-x-0 translate-y-[50%] right-5 text-2xl rounded-full p-2 group-hover:bg-black/20 text-white cursor-pointer '>
             <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
-        <p className='text-2xl md:text-1xl'>Location: {slides[currentIndex].title}</p>
+        <p className='text-2xl md:text-1xl pb-16'>Location: {slides[currentIndex].title}</p>
         <button className='bg-sky-500'><Link to="/pictures">Learn More</Link></button>
         <div className='flex top-4 justify-center py-2'>
             {slides.map((slide, slideIndex) => (
